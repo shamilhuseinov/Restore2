@@ -1,4 +1,4 @@
-export interface BaasketItem {
+export interface BasketItem {
     productId: number;
     name: string;
     price: number;
@@ -12,5 +12,5 @@ export interface BaasketItem {
 export interface Basket {
     id: number;
     buyerId: string;
-    items: BaasketItem[];
+    items: BasketItem[];
   }
